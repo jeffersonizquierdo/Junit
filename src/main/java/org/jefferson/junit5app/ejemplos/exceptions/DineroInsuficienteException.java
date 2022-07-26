@@ -1,0 +1,8 @@
+package org.jefferson.junit5app.ejemplos.exceptions;
+
+public class DineroInsuficienteException extends RuntimeException{
+
+    public DineroInsuficienteException(String mensage){
+        super(mensage);
+    }
+}
